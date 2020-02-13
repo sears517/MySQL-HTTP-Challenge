@@ -7,7 +7,7 @@ class dbManager:
     """
     def createDb(self):
 
-        mydb = mysql.connector.connect(host='localhost', user='root', passwd='47890218')
+        mydb = mysql.connector.connect(host='localhost', port='3306', user='root', passwd='47890218')
 
         mycursor = mydb.cursor()
 
